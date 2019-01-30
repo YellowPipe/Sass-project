@@ -1,0 +1,82 @@
+// @font-face 
+//   font-family: 'runic'
+//   src: url('font/Norse.otf')
+
+// @include font-face(Norse, fonts/Norse.otf)
+
+$main-color: #cc9543
+$grey-color: rgba(74,74,74,0.7)
+
+.brown 
+	color: $main-color
+
+.circle 
+	border-radius: 50%
+
+%button
+	color: white
+	border-radius: 5px
+
+.flex 
+	display: flex
+
+.grey 
+	color: $grey-color
+
+.bold
+	font-weight: bold
+
+.middle 
+	margin: 0 auto
+
+%box
+	height: 170px
+	justify-content: space-around
+	align-items: center
+
+.first-box
+	@extend %box
+	border: 1px solid grey
+	margin: 30px auto
+
+.container1
+	width: 90%
+
+.container2
+	width: 60%
+
+.menu
+	margin-top: 40px
+
+.menu-text
+	margin-right: 8px
+	border-right: 2px solid $grey-color
+	height: 30px
+	li
+		margin: 8px 10px 0 0
+
+
+body 
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+
+header 
+	justify-content: space-between
+	ul 
+		list-style: none
+		justify-content: space-around
+
+
+.container2 
+	text-align: center
+	h1
+		font-weight: lighter
+
+p 
+	font-size: 1.3em
+	line-height: 1.6em
+
+h3 
+	font-size: 1.5em
+
+
+
