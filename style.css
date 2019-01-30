@@ -66,20 +66,76 @@ header ul {
   justify-content: space-around;
 }
 
-.container2 {
-  text-align: center;
-}
 .container2 h1 {
+  text-align: center;
   font-weight: lighter;
 }
 
 p {
+  text-align: center;
   font-size: 1.3em;
   line-height: 1.6em;
 }
 
 h3 {
   font-size: 1.5em;
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.page {
+  margin: 80px auto;
+  height: 150px;
+  border-bottom: 1px solid rgba(74, 74, 74, 0.7);
+}
+.page img {
+  width: 90px;
+  height: 90px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  color: #FFF;
+}
+
+.blue-button {
+  background: #007bff;
+  margin-top: 20px;
+  margin-right: 50px;
+  border: 1px solid #007bff;
+}
+
+.margin-title {
+  margin-left: 10px;
+}
+
+.margin-title h5 {
+  margin-top: 0;
+}
+.margin-title h3 {
+  margin-bottom: 3px;
+}
+
+.question {
+  width: 80%;
+}
+
+.brown-button {
+  width: 150px;
+  height: 50px;
+  background: #cc9543;
+  border-radius: 5px;
+  border: 1px solid #cc9543;
+  color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
