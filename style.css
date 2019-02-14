@@ -53,6 +53,7 @@ a {
   margin-right: 8px;
   border-right: 2px solid rgba(74, 74, 74, 0.7);
   height: 30px;
+  margin-top: 0
 }
 .menu-text li {
   margin: 8px 10px 0 0;
