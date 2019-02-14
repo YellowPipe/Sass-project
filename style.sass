@@ -1,0 +1,164 @@
+// @font-face 
+//   font-family: 'runic'
+//   src: url('font/Norse.otf')
+
+// @include font-face(Norse, fonts/Norse.otf)
+
+$main-color: #cc9543
+$grey-color: rgba(74,74,74,0.7)
+$blue-color:#007bff
+.brown 
+	color: $main-color
+
+.circle 
+	border-radius: 50%
+
+%button
+	color: white
+	border-radius: 5px
+
+.flex 
+	display: flex
+
+.grey 
+	color: $grey-color
+
+.bold
+	font-weight: bold
+
+.middle 
+	margin: 0 auto
+
+%box
+	height: 170px
+	justify-content: space-around
+	align-items: center
+
+a 
+	@extend %hover-black
+	color:  $grey-color
+
+.first-box
+	@extend %box
+	margin: 30px auto
+	box-shadow:  0 5px 16px 0 rgba(0,0,0,0.1)
+
+.container1
+	width: 90%
+
+.container2
+	width: 60%
+
+.menu
+	margin-top: 40px
+
+.menu-text
+	margin-right: 8px
+	border-right: 2px solid $grey-color
+	height: 30px
+	li
+		margin: 8px 10px 0 0
+
+%hover-black:hover 
+	color: rgb(0,0,0)
+	cursor: pointer
+
+body 
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+
+ul 
+	list-style: none
+
+header 
+	justify-content: space-between
+	ul 
+		justify-content: space-around
+		li
+			@extend %hover-black
+
+
+.container2 
+	
+	h1
+		text-align: center
+		font-weight: lighter
+
+p 
+	text-align: center
+	font-size: 1.3em
+	line-height: 1.6em
+
+h3 
+	font-size: 1.5em
+	text-align: center
+
+
+.float-left
+	float: left
+.float-right
+	float: right
+.page
+	margin:80px auto
+	height:150px
+	border-bottom:1px solid $grey-color		    
+	img
+		width:90px
+		height:90px
+button
+	width:150px
+	height:50px
+	border-radius:5px
+	color:#FFF
+.blue-button
+	background:$blue-color
+	&:hover
+		background: #007bffb8
+		cursor: pointer
+	margin-top:20px
+	margin-right:50px
+	border:1px solid $blue-color
+		
+
+.margin-title
+	margin-left:10px
+	
+.margin-title h5
+	margin-top:0
+
+.margin-title h3
+	margin-bottom:3px
+
+.question
+	// width:80%
+	text-align: center
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%)
+.brown-button
+	width:150px
+	height:50px
+	background:$main-color
+	&:hover
+		background: #cc9543ba
+		cursor: pointer
+	border-radius:5px
+	border:1px solid $main-color
+	color:#FFF
+	margin-bottom: 30px
+
+footer 
+	justify-content: space-around
+	align-items: center
+	height: 250px
+	.grey ul li
+		@extend %hover-black
+		margin-top: 10px
+	h1 
+		font-size: 1.5em
+	img
+		width: 60px
+		height: auto
+		vertical-align: middle
+
+.icons li
+	@extend %hover-black
+	padding:0 20px
+	font-size: 1.5em
